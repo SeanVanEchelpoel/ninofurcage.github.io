@@ -1,0 +1,243 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>voorpagina</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		body {
+			background-color: #eceff2;
+			margin-left:  100px;
+			margin-right: 100px;
+			margin-top: 100px;
+			font-family: 'Montserrat', sans-serif;
+
+		}
+
+		h1 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 130%;
+			color:black;
+		    text-decoration: none;
+			
+	
+				
+		}
+
+		p {
+			font-family: 'Montserrat', sans-serif;
+			text-align: justify;
+			font-size: 13px;
+			color:black; x
+			margin: 200px;
+			margin-top: 18%;
+			line-height: 1.5;
+			
+			
+		
+			
+				
+			
+			
+		}
+			
+h1 a:link {
+
+  color: black;
+
+		
+	}
+
+/* visited link */
+h1 a:visited {
+  color: black;
+}
+
+/* mouse over link */
+h1 a:hover {
+  color: white;
+}
+
+/* selected link */
+h1 a:active {
+  color: white;
+	
+		}
+		
+		ul.menu {
+			margin: 0;
+			padding: 0;
+			width: 400px;
+			overflow:hidden;
+			list-style-type: none;
+			
+
+			}
+		
+		
+		.menu img {
+			margin-right: 5px;
+			 
+		}
+
+		.menu li {
+			float: left;
+			
+		}
+		
+		
+
+	
+
+		.actief {
+			color: white;
+		}
+
+		#main-menu {
+			display: block;
+			width: 50px;
+			float: right;
+			margin-top: auto;
+				
+		
+		}
+		
+		
+		
+		.mySlides {display:none;
+		
+		}
+		
+		#menu-2 {
+			display: block;
+			width: 150px;
+			float:right;			
+		    margin-top: 22.2% ; 				
+		    margin-right:21.5%;
+		
+		
+
+}
+
+		img{
+    display:none;
+	position:absolute;
+	margin-top: -1% ; 				
+    margin-left:20%;
+    opacity: 0.93;
+	
+	
+			
+		
+}
+
+		span:hover + img {
+    display:block;
+	align-content:center;
+	
+	
+
+ 					
+}
+		
+		span:hover{
+			color:#FFFFFF;
+			
+		}
+
+
+		img.image-menu {
+			display: inline;
+			margin-left: 0px;
+			margin-right: 5px;
+			position: relative;
+	
+		}
+
+    </style>
+
+
+</head>
+
+<body>
+	<div id="main-menu">
+<ul class="menu">
+<li><a href="index.html"><img class="image-menu" src="BOL OUTLINE.png" width="16,88" height="16,88" alt=""></a></li>
+	<li><a href="pagina2.html"><img class="image-menu" src="BOL OUTLINE.png" width="16,88" height="16,88" alt=""></a></li>
+<li><a href="pagina3.html"><img class="image-menu" src="BOL INLINE.png" width="16,88" height="16,88" alt=""></a></li>
+
+
+</ul>
+</div>
+	
+	<div id="menu-2">
+  <img class="mySlides" src="Nino Furcage 03.jpg" alt="nino Furcage 03" width="175,3" height="285" >
+  <img class="mySlides" src="Nino Furcage 01.jpg" alt="Nino Furcage 01" width="175,3" height="285" >
+  <img class="mySlides" src="Nino Furcage 02.jpg" alt="Nino Furcage 02" width="175,3" height="285" >
+</div>
+
+	<h1><a href="index.html" style= "text-decoration: none" >Nino Furcage</a></h1>
+	
+
+	
+	
+
+	<header>
+</header>
+	
+<p> Nino Furcage is a multidisciplinary artist and creative 
+	<br>director for the Scandinavian label <span style="font-family: 'Great Vibes', cursive; font-size:10px;">HELIOT EMIL .</span><img src="Helliot-emil.gif"       alt="Helliot-emil"  width="130" height="192,5" > 	 
+	<br>He lives together with his wife, <span style="font-family: 'Great Vibes', cursive; font-size:10px;">CAMILLE RAZAT</span><img src="camille-razat.gif"   alt="camille-razat" width="251" height="192,5" > , In    
+	<br>an industrial loft in the heart of Copenhagen. They   
+	<br>frequently work together for the label as Camille
+	<br>is a model.
+	<br>
+  <br>
+	<br>His autonomous artistic practice, which he focusses on 
+	<br>besides the label, conveys an obscure and somewhere
+	<br>enriching minimalistic universe. Furcage's work is a
+	<br>symbiosis between a conceptual and spontaneous
+	<br>approach to visual construction, with the influence
+	<br>of the Japanese wabi sabi aesthetic. It plays with 
+	<br>the notions of fluidity, flora and decay.
+	
+	
+
+
+</p>
+
+	
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 10000); // Change image every 10 seconds
+}
+</script>
+
+	
+
+	
+	
+	
+	
+	
+
+</body>
+
+</html>
+
+
+
